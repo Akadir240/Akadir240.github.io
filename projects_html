@@ -8,6 +8,15 @@
     <meta name="description" content="Hi my name is Akadir and this is my persnal profisnal website ">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
- <h1>Projects</h1> 
+
+ <h1 style="text-align: center;">Projects
+
+    <hr>
+ </h1> 
 </body>
+<li>Game text game 
+</li>
+<li>Persnal Cohort</li>
+<li>Cyber security Lab</li>
