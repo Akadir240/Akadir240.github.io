@@ -27,3 +27,12 @@ img {
     margin-right: auto;
 }
 
+#hp {
+    color: var(--color-1);
+    text-align: center;
+}
+
+#hh {
+    text-align: center;
+}
+
