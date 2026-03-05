@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Sue+Ellen+Francisco&family=UnifrakturMaguntia&display=swap');
 :root{
   --color-1: #F7F7F7;
   --color-2: #323643;
@@ -21,7 +20,15 @@ h1 {
     text-align: center;
 }
 
-img {
+p {
+    font-family: "Abril Fatface", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--color-1);
+    text-align: center;
+}
+
+.spooder {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -39,7 +46,10 @@ img {
 nav {
     background-color: red;
     padding: 10px;
-    text-align: center;
+    border-radius: 35px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 nav a {
@@ -51,4 +61,22 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+nav img {
+    height: 30px;
+}
+nav div{
+    
+    flex: 1; 
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.flt {
+   display: flex;
+   justify-content: space-around;
 }
