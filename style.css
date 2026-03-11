@@ -3,6 +3,9 @@
   --color-1: #F7F7F7;
   --color-2: #323643;
   --color-3: #606470;
+  --color-4: #000080;
+  --color-5: #9E2A3A;
+  --color-6: #3A2525;
 }
 
 
@@ -81,12 +84,38 @@ nav div{
    justify-content: space-around;
 }
 
+iconify-icon {
+    font-size: 240px;
+}
 
-    .sidebar {
-        width: 200px;
-        display: text align: center;
-        background-color: red;
-        padding: 40px 60px ;
-        border-radius: 8px;
-        text-align: center;
+.sidebar {
+    background: red ;
+    color: white;
+    padding: 40px 60px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px;
+  }
+  
+
+  .sidebar h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white
+}
+
+@media screen and (max-width: 480px) {
+    
+
+    iconify-icon { 
+        font-size: 90px;
     }
+ 
+    form input {
+        padding: 5px;
+    }
+      
+ 
+}
