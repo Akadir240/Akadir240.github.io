@@ -119,3 +119,13 @@ iconify-icon {
       
  
 }
+
+#move-right {
+    position: absolute;
+    right: 0;
+}
+ 
+#move-down {
+    position: fixed;
+    bottom: 0;
+}
